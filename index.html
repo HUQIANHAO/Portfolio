@@ -2,22 +2,45 @@
 <html lang="en">
 
 <head>
-    <title></title>
-<style>.async-hide { opacity: 0 !important} </style>
-<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-})(window,document.documentElement,'async-hide','dataLayer',4000,
-{'GTM-W6XMWCJ':true});</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-109947434-1', 'auto');
-  ga('require', 'GTM-W6XMWCJ');
-  ga('send', 'pageview');
-</script>
+    <title>HUGO!</title>
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <script>
+        (function(a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y;
+            h.start = 1 * new Date;
+            h.end = i = function() {
+                s.className = s.className.replace(RegExp(' ?' + y), '')
+            };
+            (a[n] = a[n] || []).hide = h;
+            setTimeout(function() {
+                i();
+                h.end = null
+            }, c);
+            h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+            'GTM-W6XMWCJ': true
+        });
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-109947434-1', 'auto');
+        ga('require', 'GTM-W6XMWCJ');
+        ga('send', 'pageview');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -37,10 +60,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
             <div class="cover-container">
-                <div style="text-align:center; font-size:7rem; font-family: Helvetica, Arial, sans-serif; font-weight:700; margin-bottom:3rem;"><span style="color:dodgerblue">H</span><span style="color:crimson">u</span><span style="color:coral">g</span><span style="color:rgb(6, 155, 6)">o</span></div>
+                <div style="text-align:center; font-size:7rem; font-family: 'Press Start 2P' ; font-weight:700; margin-bottom:3rem; "><span style="color:dodgerblue ">H</span><span style="color:crimson ">u</span><span style="color:coral ">g</span><span style="color:rgb(6,
+                    155, 6) ">o</span></div>
                 <div class="row">
                     <div class="input-group">
-                        <input type="text" name="" id="txt" class="form-control col-sx-10 col-md-6" value="" required="required" pattern="" title="" placeholder="Ask anything ... but Hey Siri doesn't work here.">
+                        <input type="text" name="" id="txt" class="form-control col-sx-10 col-md-6" value=" " required="required" pattern="" title="" placeholder="Ask anything ... but Hey Siri doesn 't work here.">
                         <span class="input-group-btn">
                             <button type="button" id="btn" class="btn btn-primary">Check Out!</button>
                         </span>

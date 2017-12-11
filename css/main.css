@@ -1,92 +1,104 @@
-    html,
-    body {
-        height: 100%;
-        /* background-color: rgb(40, 44, 52); */
-    }
-    
-    body {
-        /* color: rgb(40, 44, 52); */
-        text-align: center;
-        font-size: 18px;
-    }
-    /* Extra markup and styles for table-esque vertical and horizontal centering */
-    
-    .site-wrapper {
-        display: table;
-        width: 100%;
-        height: 100%;
-        /* For at least Firefox */
-        min-height: 100%;
-        box-shadow: inset 0 0 5rem #64445180;
-        z-index: 2;
-        position: relative;
-    }
-    
-    .site-wrapper-inner {
-        display: table-cell;
-        vertical-align: top;
-        color: #EEEEEE;
-    }
-    
-    .cover-container {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-    .container {
-        background-color: #FFFFFF20;
-        border-radius: 10px;
-        border: 10px #FFFFFF20;
-        border-style: hidden;
-        padding: 20px;
-        display: table;
-    }
-    /*
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|Press+Start+2P|Spectral');
+html,
+body {
+    height: 100%;
+    /* background-color: rgb(40, 44, 52); */
+    font-family: "Spectral";
+}
+
+body {
+    /* color: rgb(40, 44, 52); */
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    /* For at least Firefox */
+    min-height: 100%;
+    box-shadow: inset 0 0 5rem #64445180;
+    z-index: 2;
+    position: relative;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+    color: #EEEEEE;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    background-color: #FFFFFF20;
+    border-radius: 10px;
+    border: 10px #FFFFFF20;
+    border-style: hidden;
+    padding: 20px;
+    display: table;
+}
+
+
+/*
 * Affix and center
 */
-    
-    @media (min-width: 0) {
-        .site-wrapper-inner {
-            vertical-align: middle;
-        }
-        .cover-container {
-            width: 80%;
-        }
+
+@media (min-width: 0) {
+    .site-wrapper-inner {
+        vertical-align: middle;
     }
-    
-    @media (min-width: 40em) {
-        /* Start the vertical centering */
-        .site-wrapper-inner {
-            vertical-align: middle;
-        }
-        /* Handle the widths */
-        .cover-container {
-            width: 60%;
-            /* Must be percentage or pixels for horizontal alignment */
-        }
+    .cover-container {
+        width: 80%;
     }
-    
-    @media (min-width: 62em) {
-        .cover-container {
-            width: 42rem;
-        }
+}
+
+@media (min-width: 40em) {
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
     }
-    
-    video#bgvideo {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        z-index: 1;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        transform: translate(-50%, -50%)
+    /* Handle the widths */
+    .cover-container {
+        width: 60%;
+        /* Must be percentage or pixels for horizontal alignment */
     }
-    /* #backbtn {
-        float: left;
-        width: 10%;
-        height: 10%;
-        margin-left: 5px;
-        margin-top: 25px;
-    } */
+}
+
+@media (min-width: 62em) {
+    .cover-container {
+        width: 42rem;
+    }
+}
+
+video#bgvideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    font-family: "Press Start 2P"
+}
+
+
+/* #backbtn {
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-left: 5px;
+    margin-top: 25px;
+} */
