@@ -5,4 +5,4 @@ The live version is hosted on [pantheon](//dev-comm5961-hu-portfolio.pantheonsit
 
 For Prof. Bernard:
 
-Just type "Hi, I'm bernard!" or something like that in the search box to access to drupal, google analytics, etc. Thank you and have a nice holiday!
+Just type "Hi, I'm bernard" or something like that in the search box to access to drupal, google analytics, etc. Thank you and have a nice holiday!
