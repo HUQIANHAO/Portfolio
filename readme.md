@@ -1,7 +1,7 @@
 # Portfolio
-This is my COMM5961 final project, a non-linear portfolio website inspired by the game [her story](://www.herstorygame.com/about/).
+This is my COMM5961 final project, a non-linear portfolio website inspired by the game [her story](//www.herstorygame.com/about/).
 
-The live version is hosted on [pantheon](://dev-comm5961-hu-portfolio.pantheonsite.io/portfolio/).
+The live version is hosted on [pantheon](//dev-comm5961-hu-portfolio.pantheonsite.io/portfolio/).
 
 For Prof. Bernard:
 
